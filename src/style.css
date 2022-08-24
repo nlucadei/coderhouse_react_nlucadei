@@ -46,3 +46,40 @@ code {
 	font-weight: bold;
 	text-decoration:underline;
 }
+
+.botonContador {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  color: #06260E;
+  width: 20%;
+  align-self: center;
+  text-align: center;
+	background: linear-gradient(to right, #0E481C, #E0CC57);
+	border: #06260E;
+  border-color: #06260E;
+  border-width: 5px;
+}
+
+.botonContador:hover {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.unidadesContador {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  color: #06260E;
+  width: 20%;
+  align-self: center;
+  text-align: center;
+	background: linear-gradient(to right, #0E481C, #E0CC57);
+	border: #06260E;
+  border-color: #06260E;
+  border-width: 5px;
+}
+
+.contadorCarrito {
+  display: flex;
+  flex-direction: column;
+}

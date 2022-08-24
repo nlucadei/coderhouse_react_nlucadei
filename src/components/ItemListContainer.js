@@ -1,6 +1,11 @@
+import ItemCount from "./ItemCount.js";
+
 const ItemListContainer = ({saludo}) => {
     return (
-        <h2>{saludo}</h2>
+        <div>
+            <h2>{saludo}</h2>
+            <ItemCount stock={12} initial={0}/>
+        </div>
     )
 }
 

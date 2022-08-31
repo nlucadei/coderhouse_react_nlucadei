@@ -1,0 +1,42 @@
+.maquetadoCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid #0E481C;
+    border-radius: 5%;
+    width: 40%;
+    
+}
+
+.tituloCard {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #06260E;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.recuadroImagenCard {
+    align-self: center;
+}
+
+.imagenCard {
+    height: 300px;
+}
+
+.descripcionCard {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    color: #06260E;
+	font-weight: bold;
+	text-decoration:none;
+}

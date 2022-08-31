@@ -1,4 +1,5 @@
 import {useState} from "react";
+import estilos from "./itemcount.module.css";
 
 const ItemCount = ({stock, initial, onAdd}) => {
 	
@@ -22,11 +23,13 @@ const ItemCount = ({stock, initial, onAdd}) => {
 	}
 
 	return (
-		<div className="contadorCarrito">
-            <span className="unidadesContador">Unidades: {contador}</span>
-			<button onClick={bajarContador} className="botonContador">-</button>
-			<button onClick={aumentarContador} className="botonContador">+</button>
-			<button onClick={confirmarContador} className="botonContador">Agregar al carrito</button>
+		<div className={estilos.contadorCarrito}>
+			<div className={estilos.buaContador}>
+				<button onClick={bajarContador} className={estilos.botonContador}>-</button>
+				<span className={estilos.unidadesContador}>Unidades: {contador}</span>
+				<button onClick={aumentarContador} className={estilos.botonContador}>+</button>
+			</div>
+			<button onClick={confirmarContador} className={estilos.botonAgregarCarrito}>Agregar al carrito</button>
 		</div>
 	)
 }

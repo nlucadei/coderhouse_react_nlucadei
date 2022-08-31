@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+      flex-direction: row;
+    justify-content: space-between;
+    background-color: #06260E;
+  }
+
+  .imagenHeader {
+    text-align: left;
+    height: 100px;
+  }

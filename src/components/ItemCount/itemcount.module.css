@@ -1,0 +1,59 @@
+.buaContador {
+  display: flex;
+  flex-direction: row;
+}
+
+.botonContador {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    color: #06260E;
+    width: 5%;
+    align-self: center;
+    text-align: center;
+    background-color: transparent;
+    border: 5px;
+  }
+  
+  .botonContador:hover {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .botonAgregarCarrito {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: #06260E;
+    width: 60%;
+    align-self: center;
+    text-align: center;
+    background-color: transparent;
+    border: 5px;
+
+  }
+
+  .botonAgregarCarrito:hover {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .unidadesContador {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: #06260E;
+    width: 80%;
+    align-self: center;
+    text-align: center;
+    border-color: #06260E;
+    border-width: 5px;
+  }
+  
+  .contadorCarrito {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #0E481C, #E0CC57);
+    width: 60%;
+    align-items: center;
+    align-self: center;
+  }

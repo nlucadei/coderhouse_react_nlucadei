@@ -1,4 +1,4 @@
-import {useState} from "react";
+import React, { useState } from "react";
 import estilos from "./itemcount.module.css";
 
 const ItemCount = ({stock, initial, onAdd}) => {
@@ -13,15 +13,6 @@ const ItemCount = ({stock, initial, onAdd}) => {
 		(contador > 0) ? setContador(contador-1) : alert ("Error.")
 	}
 
-	const confirmarContador = () => {
-		if (contador >initial && contador <=stock) {
-			alert ("Se ha agregado " + contador + " producto(s) al carrito.");
-			onAdd(contador);
-		} else {
-			alert ("Error.")
-		 }
-	}
-
 	return (
 		<div className={estilos.contadorCarrito}>
 			<div className={estilos.buaContador}>
@@ -29,7 +20,7 @@ const ItemCount = ({stock, initial, onAdd}) => {
 				<span className={estilos.unidadesContador}>Unidades: {contador}</span>
 				<button onClick={aumentarContador} className={estilos.botonContador}>+</button>
 			</div>
-			<button onClick={confirmarContador} className={estilos.botonAgregarCarrito}>Agregar al carrito</button>
+			<button onClick={() => onAdd(contador)} className={estilos.botonAgregarCarrito}>Agregar al carrito</button>
 		</div>
 	)
 }

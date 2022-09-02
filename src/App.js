@@ -1,7 +1,8 @@
 import Header from "./components/Header/Header.js";
-import ItemListContainer from "./components/ItemListContainer/ItemListContainer.js";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer.js"
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer.js";
 
-function App() {
+const App = () => {
 
   return (
     <div>
@@ -9,7 +10,8 @@ function App() {
         <Header/>
       </header>
       <main>
-        <ItemListContainer saludo="Hola"/>
+        <ItemListContainer/>
+        <ItemDetailContainer/>
       </main>
     </div>
   );

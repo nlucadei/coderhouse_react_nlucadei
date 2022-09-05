@@ -1,16 +1,19 @@
 import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import ItemDetail from "../ItemDetail/ItemDetail.js";
 import { products } from "../../mocks/products.js";
 
 const ItemDetailContainer = () => {
     const [Product, setProduct] = useState({})
 
+    const {idProd} = useParams()
+
     useEffect(() => {
         const getProduct = () => new Promise((resolve, reject) => {
-            const unicProduct = products.find((product) => product.id === 1 )
+            const unicProduct = products.find((product) => product.id === idProd)
             setTimeout(() => {
                 resolve(unicProduct)
-        }, 2000)
+        }, 1000)
         })
 
 
@@ -19,7 +22,7 @@ const ItemDetailContainer = () => {
             setProduct(product)    
         })
         .catch(error => console.error(error))
-    }, [])
+    }, [idProd])
 
     return (
         <div>

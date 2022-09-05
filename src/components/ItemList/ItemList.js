@@ -1,9 +1,9 @@
 import React from "react";
 import Item from "../Item/Item.js";
 
-function ItemList({products}) {
+function ItemList({ProductList}) {
 	return (
-			products.map (p =>
+				ProductList.map (p =>
 				<Item
 				id={p.id}
 				title={p.title}

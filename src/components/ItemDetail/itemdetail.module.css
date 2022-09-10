@@ -1,3 +1,68 @@
-.itemDetail {
-    background-color: #2ba16a;
+.itemDetailContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.itemDetailTitulo {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #06260E;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.itemDetailImageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.itemDetailImage {
+    height:150px;
+}
+
+.itemDetailImage:hover {
+    height:250px;
+}
+
+.itemDetailDescription {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    color: #06260E;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.linkCarrito {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    color: #06260E;
+	font-weight: bold;
+	text-decoration:none;
+    border: 2px solid #0E481C;
+    background-color: white;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.linkCarrito:hover {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    color: #06260E;
+	font-weight: bold;
+	text-decoration:none;
+    border: 2px solid #0E481C;
+    background-color: #185c28;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }

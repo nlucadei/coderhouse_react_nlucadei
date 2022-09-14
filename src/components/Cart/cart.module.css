@@ -1,0 +1,41 @@
+.itemDetail {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    color: #06260E;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.itemDetailImage {
+    height:150px;
+}
+
+.botonCart {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    color: #06260E;
+	font-weight: bold;
+	text-decoration:none;
+    border: 2px solid #0E481C;
+    width: 40%;
+    background-color: white;
+    margin: 10px;
+}
+
+.botonCart:hover {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    color: #06260E;
+	font-weight: bold;
+	text-decoration:none;
+    border: 2px solid #0E481C;
+    width: 40%;
+    background-color: #185c28;
+    margin: 10px;
+}

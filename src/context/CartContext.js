@@ -34,7 +34,7 @@ const CartProvider = ({ children }) => {
             if (product.id === item.id) {
                 const productoActualizado = {
                     ...product,
-                    quantity: product.quantity + quantity,
+                    quantity: quantity,
                 }
                 return productoActualizado
             } else {
@@ -44,10 +44,33 @@ const CartProvider = ({ children }) => {
         setCart(carritoActualizado)
     }
 
+    const getProductQuantity = (id) => {
+        const prod = cart.find((product) => product.id === id)
+        return prod?.quantity
+    }
+
+    const totalQuantity = () => {
+        let acumulador = 0
+        cart.forEach((product) => {
+            acumulador = acumulador + product.quantity
+        
+        })
+        return acumulador
+    }
+
+    const totalPrice = () => {
+        let acumulador = 0
+        cart.forEach((product) => {
+            acumulador = acumulador + product.price*product.quantity
+        
+        })
+        return acumulador
+    }
+
     console.log(cart)
 
     return (
-        <CartContext.Provider value={{cart, addItem, removeItem, clearCart}}>
+        <CartContext.Provider value={{cart, addItem, removeItem, clearCart, getProductQuantity, totalPrice, totalQuantity}}>
             {children}
         </CartContext.Provider>
     )

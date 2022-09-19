@@ -8,7 +8,7 @@ const ItemDetail = ({Product}) => {
  
 	const [contador, setContador] = useState(0)
 
-	const { addItem } = useContext(CartContext)
+	const { addItem, getProductQuantity } = useContext(CartContext)
 
 	const onAdd = (contador) => {
 		alert ("Se ha agregado " + contador + " producto(s) al carrito.") 	
@@ -16,6 +16,8 @@ const ItemDetail = ({Product}) => {
 		setContador(contador)
 		addItem(Product, contador)
 	}
+
+	const cantidad = getProductQuantity(Product.id)
 
     return (
         <div className={estilos.itemDetail}>
@@ -31,7 +33,7 @@ const ItemDetail = ({Product}) => {
 					<p className={estilos.itemDetailDescription}>{Product.description}</p>
 					<p className={estilos.itemDetailDescription}>Precio: ${Product.price}</p>
 					<p className={estilos.itemDetailDescription}>Stock: {Product.stock} unidades</p>
-					{contador === 0 ? <ItemCount stock={Product.stock} initial={0} onAdd={onAdd}/> : <Link to='/cart' className={estilos.linkCarrito}>Ir al carrito</Link>}
+					{contador === 0 ? <ItemCount stock={Product.stock} initial={cantidad} onAdd={onAdd}/> : <Link to='/cart' className={estilos.linkCarrito}>Ir al carrito</Link>}
 				</div>
 			</div>
         </div>  

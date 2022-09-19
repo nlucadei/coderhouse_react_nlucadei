@@ -8,6 +8,12 @@
 	text-decoration:none;
 }
 
+.itemDetailMuestra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .itemDetailImage {
     height:150px;
 }

@@ -1,8 +1,10 @@
 .cargando {
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
-    text-align: left;
+    text-align: center;
     color: #06260E;
 	font-weight: bold;
 	text-decoration:none;
+    align-items: center;
+    padding: 20px;
 }

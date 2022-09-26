@@ -59,13 +59,16 @@ const ItemListContainer = () => {
     }, [categoryName]);
 
     return (
-        <div className={estilos.cargando}>
-            {
-                isLoading 
-                ? <div className={estilos.cargando}><PulseLoader color="#06260E" size={30}/><h4>cargando...</h4></div>
-                : <ItemList ProductList={ProductList} />
-            }
-        </div>
+        <>
+            <div className={estilos.titulo}>Nuestros Productos</div>
+            <div className={estilos.cargando}>
+                {
+                    isLoading 
+                    ? <div className={estilos.cargando}><PulseLoader color="#06260E" size={30}/><h4>cargando...</h4></div>
+                    : <ItemList ProductList={ProductList} />
+                }
+            </div>
+        </>
     )
 }
 

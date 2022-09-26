@@ -1,7 +1,7 @@
 .maquetadoCard {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    float: left;
+    width: 33%;
+    height: 700px;
 }
 
 .card {
@@ -10,9 +10,17 @@
     justify-content: center;
     border: 2px solid #0E481C;
     border-radius: 5%;
-    width: 40%;
     background-color: white;
     margin: 5px;
+}
+
+.titulo {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #06260E;
+	font-weight: bold;
+	text-decoration:none;
 }
 
 .tituloCard {
@@ -29,7 +37,8 @@
 }
 
 .imagenCard {
-    height: 300px;
+    width: 75%;
+    max-height: 400px;
 }
 
 .descripcionCard {

@@ -7,6 +7,7 @@ function NavBar () {
 		<nav className={estilos.Navbar}>
 			<Link to='/category/basicos' className={estilos.categoriaNavbar}>Básicos</Link>
 			<Link to='/category/aromaticas' className={estilos.categoriaNavbar}>Aromáticas</Link>
+			<Link to='/category/difusores' className={estilos.categoriaNavbar}>Difusores</Link>
 			<Link to='/cart' className={estilos.categoriaNavbar}><CartWidget/></Link>
 		</nav>	
 	)

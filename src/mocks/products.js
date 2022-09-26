@@ -59,4 +59,76 @@ export const products = [
 
     },
 
+	{
+        id: "6",
+		title: "Difusor Home Vidrio 125ml Verbena Fresias Organic Spa",
+		description: "Difusor HOME de vidrio x 125ml. Incluye varillas de bamboo - Presentación en caja individual. Aroma Verbena Fresias. Fragancia frutada, verde y acuosa, que genera sensación de intensa frescura.",
+		image: "https://res.cloudinary.com/dpcytaitx/image/upload/v1664153815/difusor_verbena_svuow1.webp",
+		image2: "https://res.cloudinary.com/dpcytaitx/image/upload/v1664153815/difusor_verbena2_mfd3zp.webp",
+		price: 1400,
+		stock: 19,
+		category: "difusores",
+
+    },
+
+	{
+        id: "7",
+		title: "Difusor Home Vidrio 125ml Sandía Pepino Organic Spa",
+		description: "Difusor HOME de vidrio x 125ml. Incluye varillas de bamboo - Presentación en caja individual. Aroma Sandía Pepino. Fragancia frutada, verde, acuosa, intensa, vibrante, colorida. Ideal para aromatizar ambientes abiertos, coloridos y descontracturados.",
+		image: "https://res.cloudinary.com/dpcytaitx/image/upload/v1664152476/difusor_pepino_i0maf3.webp",
+		image2: "https://res.cloudinary.com/dpcytaitx/image/upload/v1664153889/difusor_pepino2_ljrglp.webp",
+		price: 1400,
+		stock: 21,
+		category: "difusores",
+
+    },
+
+	{
+        id: "8",
+		title: "Difusor Home Vidrio 125ml Maracuyá Organic Spa",
+		description: "Difusor HOME de vidrio x 125ml. Incluye varillas de bamboo - Presentación en caja individual. Aroma Maracuyá. Fragancia frutada y cítrica. Muy refrescante y acuosa. Íntimamente relacionada al verano, sol, playa y tiempo libre.",
+		image: "https://res.cloudinary.com/dpcytaitx/image/upload/v1664152476/difusor_maracuya_cq9ina.webp",
+		image2: "https://res.cloudinary.com/dpcytaitx/image/upload/v1664153889/difusor_maracuya2_rrcjjg.webp",
+		price: 1400,
+		stock: 24,
+		category: "difusores",
+
+    },
+
+	{
+        id: "9",
+		title: "Repuesto Difusor Aromático 500ml Verbena Fresias Organic Spa",
+		description: "Repuesto aromático para recargar difusores x 500 ml. Incluye set de varillas de bamboo.",
+		image: "https://res.cloudinary.com/dpcytaitx/image/upload/v1664153815/repuesto_verbena_hcpjpu.webp",
+		image2: "https://res.cloudinary.com/dpcytaitx/image/upload/v1664153814/repuesto_verbena2_ixksza.webp",
+		price: 2100,
+		stock: 17,
+		category: "difusores",
+
+    },
+
+	{
+        id: "10",
+		title: "Repuesto Difusor Aromático 500ml Sandía Pepino Organic Spa",
+		description: "Repuesto aromático para recargar difusores x 500 ml. Incluye set de varillas de bamboo.",
+		image: "https://res.cloudinary.com/dpcytaitx/image/upload/v1664152476/repuesto_pepino_fvmnmx.webp",
+		image2: "https://res.cloudinary.com/dpcytaitx/image/upload/v1664153894/repuesto_pepino2_lx6jwh.webp",
+		price: 2100,
+		stock: 19,
+		category: "difusores",
+
+    },
+
+	{
+        id: "11",
+		title: "Repuesto Difusor Aromático 500ml Maracuyá Organic Spa",
+		description: "Repuesto aromático para recargar difusores x 500 ml. Incluye set de varillas de bamboo.",
+		image: "https://res.cloudinary.com/dpcytaitx/image/upload/v1664152476/repuesto_maracuya_qiawib.webp",
+		image2: "https://res.cloudinary.com/dpcytaitx/image/upload/v1664153894/repuesto_maracuya2_lyfkox.webp",
+		price: 2100,
+		stock: 13,
+		category: "difusores",
+
+    },
+
 ];

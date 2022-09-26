@@ -8,3 +8,13 @@
     align-items: center;
     padding: 20px;
 }
+
+.titulo {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #06260E;
+    font-weight: bold;
+    text-decoration:none;
+    font-size: 30px;
+}

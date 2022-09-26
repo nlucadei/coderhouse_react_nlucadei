@@ -26,13 +26,15 @@ const ItemDetail = ({Product}) => {
 			<div className={estilos.itemDetailContainer}>
 				<div className={estilos.itemDetailImageContainer}>
 					<img className={estilos.itemDetailImage} src={Product.image} alt={Product.title}></img>
-					<img className={estilos.itemDetailImage} src={Product.image2} alt={Product.title}></img>
 				</div>
 				<div>
 					<p className={estilos.itemDetailDescription}>{Product.description}</p>
 					<p className={estilos.itemDetailDescription}>Precio: ${Product.price}</p>
 					<p className={estilos.itemDetailDescription}>Stock: {Product.stock} unidades</p>
 					{contador === 0 ? <ItemCount stock={Product.stock} initial={cantidad} onAdd={onAdd}/> : <Link to='/cart' className={estilos.linkCarrito}>Ir al carrito</Link>}
+				</div>
+				<div className={estilos.itemDetailImageContainer}>
+					<img className={estilos.itemDetailImage} src={Product.image2} alt={Product.title}></img>
 				</div>
 			</div>
         </div>  

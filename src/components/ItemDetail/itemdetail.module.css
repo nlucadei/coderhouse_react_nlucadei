@@ -20,7 +20,7 @@
 }
 
 .itemDetailImage {
-    height:150px;
+    width: 300px;
 }
 
 .itemDetailImage:hover {

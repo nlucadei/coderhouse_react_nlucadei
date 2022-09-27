@@ -1,42 +1,40 @@
-import React, { useState } from "react";
-import { addDoc, collection, serverTimestamp } from "firebase/firestore";
-import db from "../../FirebaseConfig/firebaseConfig";
+import React from "react";
+import estilos from "./form.module.css";
 
-const Form = ({cart,total}) => {
- 
-    const [nombre, setNombre] = useState('')
-
-    const handleSubmit = (event) => {
-        event.preventDefault()
-        const order = {
-            items: cart,
-            total: total,
-            date: serverTimestamp(),
-        }
-            
-        const orderCollection = collection(db, "orders")
-    
-        addDoc(orderCollection, order).then((res) => {
-            console.log(res.id)
-        })
-    }
-
-
-    const handleChangeName = (event) => {
-        setNombre(event.target.value)
-    }
+const Form = ({ handleChangeNombre, handleChangeEmail, handleChangeEmail2, handleChangePhone, nombre, email, email2, phone, handleSubmit }) => {
 
     return (
         <div>
             <form action="" onSubmit={handleSubmit}>
-                <input 
+                <input className={estilos.inputForm}
                     type="text" 
                     placeholder="Nombre" 
-                    name="nombre" 
-                    value={nombre} 
-                    onChange={handleChangeName}
+                    onChange={handleChangeNombre}
+                    value={nombre}
+                    required
                 />
-                <button>Enviar</button>
+                <input className={estilos.inputForm}
+                    type="email" 
+                    placeholder="Email" 
+                    value={email} 
+                    onChange={handleChangeEmail}
+                    required
+                />
+                <input className={estilos.inputForm}
+                    type="email" 
+                    placeholder="Repetir Email" 
+                    value={email2} 
+                    onChange={handleChangeEmail2}
+                    required
+                />
+                <input className={estilos.inputForm}
+                    type="text" 
+                    placeholder="Teléfono" 
+                    value={phone} 
+                    onChange={handleChangePhone}
+                    required
+                />
+                <button disabled={ email !== email2 } className={estilos.botonForm}>Finalizar Compra</button>
             </form>
         </div>  
     )

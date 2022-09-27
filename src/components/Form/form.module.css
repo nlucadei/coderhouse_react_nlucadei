@@ -1,26 +1,18 @@
-.itemDetail {
+.inputForm {
     font-family: 'Ubuntu', sans-serif;
-    text-transform: uppercase;
     text-align: center;
     font-size: 15px;
     color: #06260E;
 	font-weight: bold;
 	text-decoration:none;
+    border: 2px solid #0E481C;
+    width: 20%;
+    background-color: white;
+    margin: 10px;
 }
 
-.itemDetailMuestra {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.itemDetailImage {
-    height:300px;
-}
-
-.botonCart {
+.botonForm {
     font-family: 'Ubuntu', sans-serif;
-    text-transform: uppercase;
     text-align: center;
     font-size: 15px;
     color: #06260E;
@@ -32,9 +24,8 @@
     margin: 10px;
 }
 
-.botonCart:hover {
+.botonForm:hover {
     font-family: 'Ubuntu', sans-serif;
-    text-transform: uppercase;
     text-align: center;
     font-size: 16px;
     color: #06260E;
@@ -42,15 +33,17 @@
 	text-decoration:none;
     border: 2px solid #0E481C;
     width: 40%;
-    background-color: #185c28;
     margin: 10px;
 }
 
-.textoCheckout {
+.botonForm:disabled {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    font-size: 25px;
-    color: #06260E;
+    font-size: 16px;
+    color: #C8B338;
 	font-weight: bold;
 	text-decoration:none;
+    border: 2px solid #C8B338;
+    width: 40%;
+    margin: 10px;
 }

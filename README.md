@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Velas América
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://res.cloudinary.com/dpcytaitx/image/upload/v1662359774/logo_i8ihf6.png)
 
-## Available Scripts
+## Acerca del e-commerce
+E-commerce de una marca ficticia, realizado como proyecto final del curso de React, comisión 37080, dictado por Coder House.
+Home con catalogo de productos, de tres categorías distintas.
+Carrito de compras con productos agregados, precio por producto, precio total de la compra, y la posibilidad de eliminar por producto o vaciar carrito.
+Para finalizar compra es necesario completar un formulario (validaciones:  todos los campos requeridos, @ en mail, reingreso de mail y botón deshabilitado hasta que los mails coincidan) que envia los datos a la base de datos de firebase y devuelve el código de orden de compra.
 
-In the project directory, you can run:
+## Acerca de la marca
+Velas América es una empresa Argentina creada en 1986. Este emprendimiento está compuesto por un grupo creativo multidisciplinario de jóvenes profesionales que a través de sus diseños construyen la imagen y filosofía de la marca. El trabajo en equipo, la creatividad y la constante búsqueda de nuevas percepciones componen los ejes de nuestra empresa.
 
-### `npm start`
+## Autores
+@nadpalu
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Librerías utilizadas
+* Firebase (https://firebase.google.com/)
+* React Icons (https://www.npmjs.com/package/react-icons)
+* React Router Dom (https://www.npmjs.com/package/react-router-dom)
+* React Spinners (https://www.davidhu.io/react-spinners/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+##Link
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<https://github.com/nlucadei/coderhouse_react_nlucadei>
 
-### `npm run build`
+[Página versel nlucadei-react][nlucadei] 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[nlucadei]: https://nlucadei-react.vercel.app/

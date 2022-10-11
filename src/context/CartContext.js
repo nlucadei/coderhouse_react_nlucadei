@@ -67,8 +67,6 @@ const CartProvider = ({ children }) => {
         return acumulador
     }
 
-    console.log(cart)
-
     return (
         <CartContext.Provider value={{cart, addItem, removeItem, clearCart, getProductQuantity, totalPrice, totalQuantity}}>
             {children}

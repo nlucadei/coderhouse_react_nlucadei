@@ -7,7 +7,7 @@ const CartWidget = () => {
 
         return (
         <>
-                <span class="material-symbols-outlined">shopping_cart</span>
+                <span className="material-symbols-outlined">shopping_cart</span>
 	        <span>{totalQuantity() === 0 ? "" : totalQuantity()}</span>
         </>
         )

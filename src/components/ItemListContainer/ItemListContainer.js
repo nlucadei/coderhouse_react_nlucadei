@@ -59,7 +59,7 @@ const ItemListContainer = () => {
     }, [categoryName]);
 
     return (
-        <>
+        <div>
             <div className={estilos.titulo}>Nuestros Productos</div>
             <div className={estilos.cargando}>
                 {
@@ -68,7 +68,7 @@ const ItemListContainer = () => {
                     : <ItemList ProductList={ProductList} />
                 }
             </div>
-        </>
+        </div>
     )
 }
 

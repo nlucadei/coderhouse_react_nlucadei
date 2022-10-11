@@ -11,7 +11,7 @@ const ItemDetail = ({Product}) => {
 	const { addItem, getProductQuantity } = useContext(CartContext)
 
 	const onAdd = (contador) => { 	
-		console.log(contador)
+		
 		setContador(contador)
 		addItem(Product, contador)
 	}

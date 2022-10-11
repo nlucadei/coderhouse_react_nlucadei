@@ -25,6 +25,6 @@ Velas América es una empresa Argentina creada en 1986. Este emprendimiento est�
 
 <https://github.com/nlucadei/coderhouse_react_nlucadei>
 
-[Página versel nlucadei-react][nlucadei] 
+[Página vercel nlucadei-react][nlucadei] 
 
 [nlucadei]: https://nlucadei-react.vercel.app/

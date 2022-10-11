@@ -21,7 +21,7 @@ Velas Am√©rica es una empresa Argentina creada en 1986. Este emprendimiento est√
 * React Spinners (https://www.davidhu.io/react-spinners/)
 
 
-##Link
+## Link
 
 <https://github.com/nlucadei/coderhouse_react_nlucadei>
 
